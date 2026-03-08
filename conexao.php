@@ -3,7 +3,7 @@
 $host = 'localhost';
 $usuario = 'root';
 $senha = '';
-$dbName = 'celke';
+$dbName = 'celke2';
 $porta = 3306;
 
 try{
