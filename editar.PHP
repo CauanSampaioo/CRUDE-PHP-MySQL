@@ -37,13 +37,14 @@ if($prepare && $prepare->rowCount() != 0){
     <title>Editar</title>
 </head>
 <body>
-    <header style='font-size: 20px'>
-        <a href="index.php">Pagina inicial</a><br>
-        <a href="listar.php">Listar</a><br>
+    <header style='font-size: 20px'>        
+        <a href="index.php">Listar</a><br>
         <a href="cadastrar.php">Cadastrar</a><br>
+        <a href="pesquisar.php">Pesquisar</a><br>
     </header>
 
-    <h2>Editar</h2>
+
+    <h1>Editar</h1>
 
     <?php
 

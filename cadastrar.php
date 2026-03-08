@@ -12,16 +12,17 @@
     <title>Cadastro</title>
 </head>
 <body>
-    <header style='font-size: 20px'>
-        <a href="index.php">Pagina inicial</a><br>
-        <a href="listar.php">Listar</a><br>
+    <header style='font-size: 20px'>        
+        <a href="index.php">Listar</a><br>
         <a href="cadastrar.php">Cadastrar</a><br>
+        <a href="pesquisar.php">Pesquisar</a><br>
     </header>
 
-    <h2>Cadastrar</h2>
+
+    <h1>Cadastrar</h1>
     <?php
     //Receber dados do formulário
-        $dadosFormulario = filter_input_array(INPUT_POST,FILTER_DEFAULT);
+        $dadosFormulario = filter_input_array(INPUT_POST, FILTER_DEFAULT);
         //var_dump($dadosFormulario);
         $erro = null;
 
